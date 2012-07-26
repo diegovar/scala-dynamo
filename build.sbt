@@ -11,6 +11,6 @@ publishTo := Some(Resolver.file("local repo",Path.userHome / ".m2/repository" as
 libraryDependencies ++= Seq(
   "org.specs2" %% "specs2" % "1.6.1" % "test"
   , "com.amazonaws" % "aws-java-sdk" % "1.3.7" 
-  , "com.recursivity" %% "recursivity-commons" % "0.5.7"
+  , "com.recursivity" %% "recursivity-commons" % "0.6"
 )
 
